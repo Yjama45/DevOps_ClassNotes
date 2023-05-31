@@ -54,6 +54,11 @@ Repeat all the 4 steps on Host machine also and restart the sshd connection on h
 
 Install Ansible :
 
+If you are using amazon linux 2023 then run the commands given below:
+sudo yum install python-pip -y
+
+pip install ansible -y
+
 Step 1:
 *************
 
@@ -89,6 +94,8 @@ Complete!
 
 version of ansible isntalled will be displayed.
 
+****************************************************************************
+Follow from here
 *****************************************
 CREATE INVENTORY ON ACM and ADD Host details
 *****************************************
